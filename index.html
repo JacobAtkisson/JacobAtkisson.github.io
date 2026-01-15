@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Atkisson - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jacob Atkisson</h1>
+        <p>Computer Science Student | Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi there! I'm Jacob Atkisson, a passionate computer science student with interests in machine learning, software development, and data-driven solutions. I enjoy building projects that solve real-world problems and learning new technologies.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Predictive Maintenance with Machine Learning</h3>
+            <p><strong>AI4I 2020 Dataset – Classification Model Evaluation</strong></p>
+            <p><a href="Machine_Learning_Project.html" target="_blank">View rendered HTML version</a></p>
+
+            <h4>Overview</h4>
+            <p>This project applies supervised machine learning techniques to a real-world <strong>predictive maintenance</strong> problem. Using the AI4I 2020 dataset from the UCI Machine Learning Repository, I built and evaluated multiple classification models to predict machine failure events based on operational sensor data.</p>
+            <p>The focus of this project is <strong>model comparison, parameter tuning, and evaluation</strong>, demonstrating a full end-to-end ML workflow.</p>
+
+            <h4>Objective</h4>
+            <p>To accurately predict whether a machine will fail using sensor and operational data, enabling proactive maintenance and reduced downtime.</p>
+
+            <h4>Dataset</h4>
+            <ul>
+                <li><strong>Source:</strong> UCI Machine Learning Repository – AI4I 2020 Predictive Maintenance Dataset</li>
+                <li><strong>Instances:</strong> 10,000</li>
+                <li><strong>Features:</strong>
+                    <ul>
+                        <li>Air temperature</li>
+                        <li>Process temperature</li>
+                        <li>Rotational speed</li>
+                        <li>Torque</li>
+                        <li>Tool wear</li>
+                    </ul>
+                </li>
+                <li><strong>Target Variable:</strong> Machine failure (binary classification)</li>
+            </ul>
+            <p>Minimal preprocessing was required, allowing emphasis on modeling and evaluation techniques.</p>
+
+            <h4>Methods & Models</h4>
+            <p>The following machine learning techniques were implemented and compared:</p>
+            <ul>
+                <li><strong>Decision Tree Classifier</strong>
+                    <ul><li>Tuned maximum depth to balance bias and variance</li></ul>
+                </li>
+                <li><strong>k-Nearest Neighbors (k-NN)</strong>
+                    <ul><li>Evaluated impact of varying <code>k</code></li></ul>
+                </li>
+                <li><strong>Principal Component Analysis (PCA)</strong>
+                    <ul><li>Used to reduce dimensionality and analyze performance trade-offs</li></ul>
+                </li>
+                <li><strong>Train/Test Splitting</strong>
+                    <ul><li>Ensured unbiased evaluation</li></ul>
+                </li>
+            </ul>
+
+            <h4>Evaluation Metrics</h4>
+            <p>Models were evaluated using:</p>
+            <ul>
+                <li>Accuracy</li>
+                <li>Confusion matrices</li>
+                <li>Comparative performance analysis</li>
+            </ul>
+            <p>This allowed clear identification of model strengths, weaknesses, and overfitting behavior.</p>
+
+            <h4>Key Results</h4>
+            <ul>
+                <li>Decision Trees achieved the highest overall accuracy when properly depth-limited</li>
+                <li>k-NN performance was sensitive to the choice of <code>k</code></li>
+                <li>PCA reduced dimensionality but introduced a small trade-off in accuracy</li>
+                <li>Model tuning significantly impacted generalization performance</li>
+            </ul>
+
+            <h4>Skills Demonstrated</h4>
+            <ul>
+                <li>Python (pandas, NumPy)</li>
+                <li>scikit-learn (classification, PCA, model evaluation)</li>
+                <li>Machine learning model selection & tuning</li>
+                <li>Bias–variance tradeoff analysis</li>
+                <li>Data-driven decision making</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Library Database Program</h3>
+            <p>This program acts as a tool to update, search, and add to an existing library DB.</p>
+
+            <h4>Usage</h4>
+            <p>Compile the program using: <code>javac -cp mysql-connector-j-9.5.0.jar *.java</code></p>
+            <p>Run using command: <code>java -cp '.\;mysql-connector-j-9.5.0.jar' Main</code></p>
+            <p>Once you've run the program will start connecting to the Database. After it has connected you will see this menu:</p>
+            <pre>
+===== LIBRARY MANAGEMENT SYSTEM =====
+1. Add Author
+2. Add Book
+3. View All Authors
+4. Search Books
+5. View Books by Author
+6. Update Author
+7. Update Book
+8. Delete Author
+9. Delete Book
+0. Exit
+            </pre>
+            <p>You may select any option and fillout the prompts as follows and the database will be updated.</p>
+
+            <p><strong>Jacob Atkisson</strong> <a href="mailto:atkissonj2@winthrop.edu">atkissonj2@winthrop.edu</a></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:atkissonj2@winthrop.edu">atkissonj2@winthrop.edu</a></p>
+        <p>GitHub: <a href="https://github.com/JacobAtkisson" target="_blank">JacobAtkisson</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Jacob Atkisson</p>
+    </footer>
+</body>
+</html>
