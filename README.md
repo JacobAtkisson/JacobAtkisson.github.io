@@ -1,16 +1,14 @@
-## Hi there 👋
+# Jacob Atkisson - Data Analyst Portfolio
 
-<!--
-**JacobAtkisson/JacobAtkisson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my portfolio! 
 
-Here are some ideas to get you started:
+## 📊 Featured Projects
+- **Predictive Maintenance Dashboard**: Machine learning model to predict equipment failures before they happen
+- **Library Management Analytics**: Database system for tracking and analyzing library operations
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📫 Get In Touch
+- Email: atkisson.jacob@gmail.com
+- LinkedIn:
+
+---
+*This portfolio is built with HTML, CSS, and hosted on GitHub Pages.*
